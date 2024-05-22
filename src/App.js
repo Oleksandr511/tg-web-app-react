@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './components/hooks/useTelegram';
 // import header from './components/Header/Header';
-import Header from './components/Header/header';
+ import Header from './src./components/Header/Header';
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* <Header/> */}
       <Header/>
       <button onClick={onToggleButton}>toggle</button>
     </div>
