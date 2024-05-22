@@ -9,7 +9,8 @@ function header() {
             <span className={'username'}>
                 {user?.username}
             </span>
-            header
+            Myheader
+            
         </div>
     )
 }
