@@ -22,7 +22,6 @@ function App() {
       <Routes>
         <Route index element={<ProductList />}/>
         <Route path={'form'} element={<Form />}/>
-
       </Routes>
     </div>
   );
