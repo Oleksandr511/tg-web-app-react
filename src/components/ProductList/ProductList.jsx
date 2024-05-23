@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProductList.css'
-import ProductItem from '../ProductItem/ProductItem'
+import ProductItem from '../ProductItem/ProductItem.jsx'
 import { useTelegram } from '../hooks/useTelegram'
 import { useState } from 'react'
 
