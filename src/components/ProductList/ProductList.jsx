@@ -11,7 +11,7 @@ const products = [
 ]
 
 const getTotalPrice = (items = [])=>{
-  return products.reduce((acc,cur)=>{
+  return items.reduce((acc,cur)=>{
     return acc+=cur.price
   },0)
 }
@@ -44,7 +44,7 @@ const ProductList = () => {
 
   return (
     <div className={'list'}>
-      {products.map((el)=>{
+      {products.map(el=>{
         <ProductItem 
           product={el}
           onAdd={onAdd}
