@@ -1,0 +1,15 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--tg-theme-button-color);
+    padding: 15px;
+    width: 17px;
+}
+
+.description {
+    font-size: 0.8em;
+}
+
+.add-btn {
+    width: 100%;
+}
