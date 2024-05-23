@@ -8,7 +8,10 @@ import { useState } from 'react'
 const products = [
   { id: '1', title: 'Jeans', price: 120, description: 'Blue color, streight' },
   { id: '2', title: 'Jacket', price: 100, description: 'Green color, warm' },
-  { id: '3', title: 'cap', price: 20, description: 'Black color, modern' }
+  { id: '3', title: 'cap', price: 20, description: 'Black color, modern' },
+  { id: '4', title: 'Jeans', price: 110, description: 'White color, modern' },
+  { id: '5', title: 'shorts', price: 80, description: 'Red color, modern' },
+  { id: '6', title: 'Trousers', price: 90, description: 'Pink color, modern' }
 ]
 
 const getTotalPrice = (items = []) => {
